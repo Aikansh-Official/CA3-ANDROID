@@ -1,4 +1,4 @@
-﻿package com.aikansh.ca3
+package com.aikansh.ca3
 
 import android.content.Context
 import android.os.Bundle
@@ -22,7 +22,6 @@ import kotlinx.coroutines.launch
 data class Contact(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val name: String,
-    // Kept for compatibility with the existing database on installed devices.
     val phoneNumber: String = ""
 )
 
